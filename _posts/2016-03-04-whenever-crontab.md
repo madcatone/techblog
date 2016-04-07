@@ -17,6 +17,7 @@ add  `gem 'whenever'` to *Gemfile*
 `wheneverize .`
 
 It generate file => `config/schedule.rb` like:
+
 ```
 # Use this file to easily define all of your cron jobs.
 #
@@ -70,6 +71,7 @@ end
 ```
 
 ## Whenever syntex
+
 ### ex:1
 ```
 every '*/2 * * * * ' do
@@ -77,6 +79,7 @@ every '*/2 * * * * ' do
 end
 ```
 exec rake vote:reset every 2 minutes
+
 ### ex:2
 ```
 every 1.day, :at => '0:05 am' do
@@ -86,6 +89,7 @@ end
 exec rake vote:reset every day at 00:05 am
 
 ## *Task*
+
 manual create file in /lib/tasks/_whatever_.rake like:
 ```
 # /lib/tasks/vote.rake
