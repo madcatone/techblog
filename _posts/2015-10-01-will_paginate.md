@@ -16,7 +16,9 @@ end
 ```
 
 ## view (slim)
+
 ### 用divmod算出結果與頁數
+
 ```
 = link_to t('wechat.home'), :action => 'vote', :page => 1
 = will_paginate @fatigues, :container => false, :page_links => false
