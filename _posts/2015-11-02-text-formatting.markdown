@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Text formatting"
-date: 2015-11-02 16:25:06
+date: 2014-11-02 16:25:06
 tags: jekyll
 description: Text formatting examples.
 ---
