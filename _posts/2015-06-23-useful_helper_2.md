@@ -1,3 +1,10 @@
+---
+layout: post
+title: "Useful Rails Helper part2"
+date: 2015-06-23 17:15:01
+tags: rails helper
+---
+
 # 常用helper part2
 
 ## 時間

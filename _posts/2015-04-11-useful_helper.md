@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Useful Rails Helper"
-date: 2015-04-11-01 11:21:26
+date: 2015-04-11 11:21:26
 tags: rails helper
 ---
 

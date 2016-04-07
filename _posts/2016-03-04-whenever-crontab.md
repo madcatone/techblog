@@ -15,6 +15,7 @@ add  `gem 'whenever'` to *Gemfile*
 ## Init.
 `cd /project`
 `wheneverize .`
+
 It generate file => `config/schedule.rb` like:
 ```
 # Use this file to easily define all of your cron jobs.
