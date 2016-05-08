@@ -12,7 +12,7 @@ add in Gemfile
 `gem 'settingslogic'`
 
 ## How to use
-1. Establish a rb file in model
+### 1. Establish a rb file in model
 ```
 class Settings < Settingslogic
   source "#{Rails.root}/config/settings.yml"
@@ -20,7 +20,7 @@ class Settings < Settingslogic
 end
 ```
 
-2. Establish a yml file in config/settings.yml
+### 2. Establish a yml file in config/settings.yml
 ```
 defaults: &defaults
   cool:
